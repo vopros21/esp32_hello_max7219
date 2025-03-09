@@ -1,0 +1,50 @@
+-- Existing sdkconfig '/Users/mkostenko/esp32_repos/hello_world/sdkconfig' renamed to '/Users/mkostenko/esp32_repos/hello_world/sdkconfig.old'.
+-- Found Git: /usr/bin/git (found version "2.39.5 (Apple Git-154)")
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/mkostenko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/mkostenko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/mkostenko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file /Users/mkostenko/esp32_repos/hello_world/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/mkostenko/.espressif/python_env/idf5.2_py3.9_env/bin/python (found version "3.9.6") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "hello_world" version: 1
+-- Adding linker script /Users/mkostenko/esp32_repos/hello_world/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/mkostenko/esp32_repos/hello_world/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /Users/mkostenko/esp32_repos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /Users/mkostenko/esp32_repos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /Users/mkostenko/esp32_repos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+-- Adding linker script /Users/mkostenko/esp32_repos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /Users/mkostenko/esp32_repos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /Users/mkostenko/esp32_repos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /Users/mkostenko/esp32_repos/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/mkostenko/esp32_repos/esp-idf/components/app_trace /Users/mkostenko/esp32_repos/esp-idf/components/app_update /Users/mkostenko/esp32_repos/esp-idf/components/bootloader /Users/mkostenko/esp32_repos/esp-idf/components/bootloader_support /Users/mkostenko/esp32_repos/esp-idf/components/bt /Users/mkostenko/esp32_repos/esp-idf/components/cmock /Users/mkostenko/esp32_repos/esp-idf/components/console /Users/mkostenko/esp32_repos/esp-idf/components/cxx /Users/mkostenko/esp32_repos/esp-idf/components/driver /Users/mkostenko/esp32_repos/esp-idf/components/efuse /Users/mkostenko/esp32_repos/esp-idf/components/esp-tls /Users/mkostenko/esp32_repos/esp-idf/components/esp_adc /Users/mkostenko/esp32_repos/esp-idf/components/esp_app_format /Users/mkostenko/esp32_repos/esp-idf/components/esp_bootloader_format /Users/mkostenko/esp32_repos/esp-idf/components/esp_coex /Users/mkostenko/esp32_repos/esp-idf/components/esp_common /Users/mkostenko/esp32_repos/esp-idf/components/esp_eth /Users/mkostenko/esp32_repos/esp-idf/components/esp_event /Users/mkostenko/esp32_repos/esp-idf/components/esp_gdbstub /Users/mkostenko/esp32_repos/esp-idf/components/esp_hid /Users/mkostenko/esp32_repos/esp-idf/components/esp_http_client /Users/mkostenko/esp32_repos/esp-idf/components/esp_http_server /Users/mkostenko/esp32_repos/esp-idf/components/esp_https_ota /Users/mkostenko/esp32_repos/esp-idf/components/esp_https_server /Users/mkostenko/esp32_repos/esp-idf/components/esp_hw_support /Users/mkostenko/esp32_repos/esp-idf/components/esp_lcd /Users/mkostenko/esp32_repos/esp-idf/components/esp_local_ctrl /Users/mkostenko/esp32_repos/esp-idf/components/esp_mm /Users/mkostenko/esp32_repos/esp-idf/components/esp_netif /Users/mkostenko/esp32_repos/esp-idf/components/esp_netif_stack /Users/mkostenko/esp32_repos/esp-idf/components/esp_partition /Users/mkostenko/esp32_repos/esp-idf/components/esp_phy /Users/mkostenko/esp32_repos/esp-idf/components/esp_pm /Users/mkostenko/esp32_repos/esp-idf/components/esp_psram /Users/mkostenko/esp32_repos/esp-idf/components/esp_ringbuf /Users/mkostenko/esp32_repos/esp-idf/components/esp_rom /Users/mkostenko/esp32_repos/esp-idf/components/esp_system /Users/mkostenko/esp32_repos/esp-idf/components/esp_timer /Users/mkostenko/esp32_repos/esp-idf/components/esp_wifi /Users/mkostenko/esp32_repos/esp-idf/components/espcoredump /Users/mkostenko/esp32_repos/esp-idf/components/esptool_py /Users/mkostenko/esp32_repos/esp-idf/components/fatfs /Users/mkostenko/esp32_repos/esp-idf/components/freertos /Users/mkostenko/esp32_repos/esp-idf/components/hal /Users/mkostenko/esp32_repos/esp-idf/components/heap /Users/mkostenko/esp32_repos/esp-idf/components/http_parser /Users/mkostenko/esp32_repos/esp-idf/components/idf_test /Users/mkostenko/esp32_repos/esp-idf/components/ieee802154 /Users/mkostenko/esp32_repos/esp-idf/components/json /Users/mkostenko/esp32_repos/esp-idf/components/log /Users/mkostenko/esp32_repos/esp-idf/components/lwip /Users/mkostenko/esp32_repos/hello_world/main /Users/mkostenko/esp32_repos/esp-idf/components/mbedtls /Users/mkostenko/esp32_repos/esp-idf/components/mqtt /Users/mkostenko/esp32_repos/esp-idf/components/newlib /Users/mkostenko/esp32_repos/esp-idf/components/nvs_flash /Users/mkostenko/esp32_repos/esp-idf/components/nvs_sec_provider /Users/mkostenko/esp32_repos/esp-idf/components/openthread /Users/mkostenko/esp32_repos/esp-idf/components/partition_table /Users/mkostenko/esp32_repos/esp-idf/components/perfmon /Users/mkostenko/esp32_repos/esp-idf/components/protobuf-c /Users/mkostenko/esp32_repos/esp-idf/components/protocomm /Users/mkostenko/esp32_repos/esp-idf/components/pthread /Users/mkostenko/esp32_repos/esp-idf/components/sdmmc /Users/mkostenko/esp32_repos/esp-idf/components/soc /Users/mkostenko/esp32_repos/esp-idf/components/spi_flash /Users/mkostenko/esp32_repos/esp-idf/components/spiffs /Users/mkostenko/esp32_repos/esp-idf/components/tcp_transport /Users/mkostenko/esp32_repos/esp-idf/components/touch_element /Users/mkostenko/esp32_repos/esp-idf/components/ulp /Users/mkostenko/esp32_repos/esp-idf/components/unity /Users/mkostenko/esp32_repos/esp-idf/components/usb /Users/mkostenko/esp32_repos/esp-idf/components/vfs /Users/mkostenko/esp32_repos/esp-idf/components/wear_levelling /Users/mkostenko/esp32_repos/esp-idf/components/wifi_provisioning /Users/mkostenko/esp32_repos/esp-idf/components/wpa_supplicant /Users/mkostenko/esp32_repos/esp-idf/components/xtensa
+-- Configuring done (5.3s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/mkostenko/esp32_repos/hello_world/build
